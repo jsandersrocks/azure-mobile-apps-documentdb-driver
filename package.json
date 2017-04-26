@@ -4,7 +4,7 @@
   "description": "A test server for DocumentDb",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint lib"
   },
   "author": "Adrian Hall <adrian@shellmonger.com>",
   "license": "MIT",
@@ -13,16 +13,18 @@
     "url": "https://github.com/adrianhall/azure-mobile-apps-documentdb-driver"
   },
   "dependencies": {
-    "async": "^2.1.4",
-    "azure-mobile-apps": "^4.0.0",
-    "documentdb": "^1.10.2",
-    "moment": "^2.17.1",
+    "async": "^2.3.0",
+    "azure-mobile-apps": "^4.0.1",
+    "documentdb": "^1.11.0",
+    "moment": "^2.18.1",
     "uuid": "^3.0.1"
   },
   "devDependencies": {
-    "eslint": "^3.15.0",
-    "eslint-config-standard": "^6.2.1",
-    "eslint-plugin-promise": "^3.4.1",
-    "eslint-plugin-standard": "^2.0.1"
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }
